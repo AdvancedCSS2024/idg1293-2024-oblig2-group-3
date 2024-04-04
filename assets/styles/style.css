@@ -1,5 +1,13 @@
-#poster-background {
+.poster {
+  max-width: 842px;
+  max-height: 1192px;
   position: relative;
+  border: 3px solid black;
+}
+
+#poster-background {
+  width: 100%;
+  height: 100%;
 }
 
 #curved-text, #car, #moon, #star-1, #star-2 {
@@ -8,26 +16,36 @@
 }
 
 #curved-text {
-  top: 850px;
-  left: 30px;
+  top: 33.3%;
+  left: 2.5%;
+  width: 38.0641330166%;
+  height: 16.3301662708%;
 }
 
 #car {
-  top: 710px;
-  left: 700px;
+  top: 28.2%;
+  left: 42%;
+  width: 17.8741092637%;
+  height: 11.2826603325%;
 }
 
 #moon {
-  top: 320px;
-  left: 1100px;
+  top: 10%;
+  left: 64.5%;
+  width: 23.45%;
+  height: 22.8028503563%;
 }
 
 #star-1 {
-  top: 260px;
-  left: 1450px;
+  top: 9%;
+  left: 84%;
+  width: 6.6508313539%;
+  height: 7.3040380048%;
 }
 
 #star-2 {
-  top: 415px;
-  left: 1540px;
+  top: 16%;
+  left: 89.5%;
+  width: 4.9881235154%;
+  height: 5.0475059382%;
 }/*# sourceMappingURL=style.css.map */

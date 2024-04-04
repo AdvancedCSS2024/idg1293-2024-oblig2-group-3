@@ -1,6 +1,14 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
-#poster-background {
+.poster {
+    max-width: 842px;
+    max-height: 1192px;
     position: relative;
+    border: 3px solid black;
+}
+
+#poster-background {
+    width: 100%;
+    height: 100%;
 }
 
 #curved-text, #car, #moon, #star-1, #star-2 {
@@ -9,23 +17,33 @@
 }
 
 #curved-text {
-    top: 850px;
-    left: 30px;
+    top: 33.3%;
+    left: 2.5%;
+    width: 38.064133016627075%;
+    height: 16.330166270783845%;
 }
  #car {
-    top: 710px;
-    left: 700px;
+    top: 28.2%;
+    left: 42%;
+    width: 17.87410926365796%;
+    height: 11.282660332541568%;
 }
 
 #moon {
-    top: 320px;
-    left: 1100px;
+    top: 10%;
+    left: 64.5%;
+    width: 23.45%;
+    height: 22.802850356294538%;
 }
 #star-1 {
-    top: 260px;
-    left: 1450px;
+    top: 9%;
+    left: 84%;
+    width: 6.65083135391924%;
+    height: 7.304038004750593%;
 }
 #star-2 {
-    top: 415px;
-    left: 1540px;
+    top: 16%;
+    left: 89.5%;
+    width: 4.98812351543943%;
+    height: 5.04750593824228%;
 }
