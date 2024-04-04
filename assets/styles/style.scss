@@ -1,1 +1,31 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
+#poster-background {
+    position: relative;
+}
+
+#curved-text, #car, #moon, #star-1, #star-2 {
+    position: absolute;
+    z-index: 2;
+}
+
+#curved-text {
+    top: 850px;
+    left: 30px;
+}
+ #car {
+    top: 710px;
+    left: 700px;
+}
+
+#moon {
+    top: 320px;
+    left: 1100px;
+}
+#star-1 {
+    top: 260px;
+    left: 1450px;
+}
+#star-2 {
+    top: 415px;
+    left: 1540px;
+}
