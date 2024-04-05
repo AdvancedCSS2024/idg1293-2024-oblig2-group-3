@@ -2,7 +2,7 @@
   max-width: 842px;
   max-height: 1192px;
   position: relative;
-  border: 3px solid black;
+  /*border: 3px solid black;*/
 }
 
 #poster-background {
@@ -41,6 +41,7 @@
   left: 84%;
   width: 6.6508313539%;
   height: 7.3040380048%;
+  animation-duration: 0.8s;
 }
 
 #star-2 {
@@ -48,4 +49,25 @@
   left: 89.5%;
   width: 4.9881235154%;
   height: 5.0475059382%;
+  animation-duration: 1.2s;
+}
+
+#star-1, #star-2 {
+  animation-name: starShake;
+  animation-iteration-count: infinite;
+}
+
+@keyframes starShake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }/*# sourceMappingURL=style.css.map */
