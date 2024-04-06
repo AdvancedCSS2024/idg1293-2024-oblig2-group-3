@@ -15,54 +15,49 @@
   /*opacity: 0;*/
 }
 
-#background-1, #background-2, #background-3, #background-4, #text-1, #text-2 {
+#background-1, #background-2, #background-3, #background-4, #text-1, #text-2, #text-3 {
   position: absolute;
 }
 
 #background-1 {
   z-index: 4;
-  fill: #fff;
-  stroke-width: 0px;
   top: 0;
   left: 0;
 }
 
-.cls-2 {
-  fill: #005ba7;
-  stroke-width: 0px;
+.fill-white {
+  fill: #fff;
 }
 
-.cls-3 {
+.fill-blue {
+  fill: #005ba7;
+}
+
+.marydale-black {
   fill: #231f20;
   font-family: Marydale-Bold, Marydale;
   font-size: 36px;
   font-weight: 700;
 }
 
-.cls-4 {
+.marydale-white {
   fill: #fff;
   font-family: Marydale-Bold, Marydale;
   font-size: 45px;
   font-weight: 700;
 }
 
-.cls-5 {
+.blue-background {
   fill: #00b1dc;
   opacity: 0.15;
-  stroke-width: 0px;
 }
 
-.cls-6 {
+.red-background {
   fill: #c77161;
   opacity: 0.38;
-  stroke-width: 0px;
 }
 
-.cls-7 {
-  fill: #005ba7;
-}
-
-.cls-8 {
+.fill-green {
   fill: #0fa15c;
 }
 
@@ -86,17 +81,24 @@
   z-index: 3;
 }
 
-#text-1, #text-2 {
+#text-1, #text-2, #text-3 {
   left: 5.1%;
   z-index: 5;
 }
 
 #text-1, #text-2 {
-  top: 3.65%;
   max-width: 30%;
 }
 
+#text-1 {
+  top: 3.65%;
+}
+
 #text-2 {
+  top: 11.3%;
+}
+
+#text-3 {
   top: 21.9%;
   max-width: 44.8%;
 }
