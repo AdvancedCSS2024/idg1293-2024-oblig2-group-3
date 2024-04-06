@@ -27,6 +27,45 @@
   left: 0;
 }
 
+.cls-2 {
+  fill: #005ba7;
+  stroke-width: 0px;
+}
+
+.cls-3 {
+  fill: #231f20;
+  font-family: Marydale-Bold, Marydale;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cls-4 {
+  fill: #fff;
+  font-family: Marydale-Bold, Marydale;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.cls-5 {
+  fill: #00b1dc;
+  opacity: 0.15;
+  stroke-width: 0px;
+}
+
+.cls-6 {
+  fill: #c77161;
+  opacity: 0.38;
+  stroke-width: 0px;
+}
+
+.cls-7 {
+  fill: #005ba7;
+}
+
+.cls-8 {
+  fill: #0fa15c;
+}
+
 #background-2 {
   z-index: 3;
   top: 1.1%;
@@ -67,6 +106,10 @@
   left: 2%;
   width: 38.0641330166%;
   height: 16.3301662708%;
+}
+
+#curved-text path {
+  fill: black;
 }
 
 #car {
