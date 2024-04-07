@@ -6,7 +6,7 @@
     /*border: 3px solid black;*/
   }
   
-  .poster img {
+  #poster-background-temp {
     max-width: 100%;
     max-height: 100%;
     opacity: 50%;
@@ -15,6 +15,13 @@
   #earth {
     position: absolute;
     top: 63.2%;
+  }
+
+  #qr-code {
+    position: absolute;
+    max-width: 8.6%;
+    top: 87.5%;
+    left: 0.9%;
   }
 
   #footer-background {
