@@ -27,6 +27,13 @@
 .characters #character-left #character-left-shirt {
   fill: #f5ec43;
 }
+.characters #character-middle {
+  z-index: 2;
+  position: absolute;
+  max-width: 17.5%;
+  top: 49.7%;
+  left: 39.9%;
+}
 .characters #character-right {
   z-index: 2;
   position: absolute;
