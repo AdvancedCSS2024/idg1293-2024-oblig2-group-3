@@ -11,6 +11,98 @@
   opacity: 50%;
 }
 
+.clouds #cloud1 {
+  z-index: 2;
+  position: absolute;
+  max-width: 3.9%;
+  top: 52.5%;
+  left: 11.4%;
+}
+.clouds #cloud2 {
+  z-index: 2;
+  position: absolute;
+  max-width: 3.9%;
+  top: 50.7%;
+  left: 27.1%;
+}
+.clouds #cloud-brows1 {
+  z-index: 2;
+  position: absolute;
+  max-width: 5%;
+  top: 40%;
+  left: 30%;
+}
+.clouds #cloud3 {
+  z-index: 2;
+  position: absolute;
+  max-width: 3.9%;
+  top: 54.4%;
+  left: 34.1%;
+}
+.clouds #cloud4 {
+  z-index: 2;
+  position: absolute;
+  max-width: 3.9%;
+  top: 48.8%;
+  left: 36.1%;
+}
+.clouds #cloud5 {
+  z-index: 2;
+  position: absolute;
+  max-width: 3.9%;
+  top: 46.4%;
+  left: 44.2%;
+}
+.clouds #cloud-brows2 {
+  z-index: 2;
+  position: absolute;
+  max-width: 9.7%;
+  top: 44%;
+  left: 55.3%;
+}
+.clouds #cloud-brows3 {
+  z-index: 2;
+  position: absolute;
+  max-width: 5.9%;
+  top: 39.8%;
+  left: 72%;
+}
+.clouds #cloud6 {
+  z-index: 2;
+  position: absolute;
+  max-width: 3.9%;
+  top: 46.3%;
+  left: 73.5%;
+}
+.clouds #cloud7 {
+  z-index: 2;
+  position: absolute;
+  max-width: 3.9%;
+  top: 43.55%;
+  left: 81.3%;
+}
+.clouds #cloud8 {
+  z-index: 2;
+  position: absolute;
+  max-width: 3.9%;
+  top: 52.15%;
+  left: 82.75%;
+}
+.clouds .cloud-eyes {
+  fill: #fff;
+  stroke-width: 4.6px;
+  stroke: #231f20;
+}
+.clouds .cloud-pupils {
+  fill: #a1cf6d;
+}
+.clouds .cloud-mouth {
+  stroke: #231f20;
+}
+.clouds .cloud-fill {
+  fill: #a1cf6d;
+}
+
 .characters #character-left {
   z-index: 2;
   position: absolute;
@@ -33,6 +125,15 @@
   max-width: 17.5%;
   top: 49.7%;
   left: 39.9%;
+}
+.characters #character-middle .character-middle-skin {
+  fill: #fce0ce;
+}
+.characters #character-middle #character-middle-shirt {
+  fill: #00b1dc;
+}
+.characters #character-middle #character-middle-pants {
+  fill: #c77161;
 }
 .characters #character-right {
   z-index: 2;

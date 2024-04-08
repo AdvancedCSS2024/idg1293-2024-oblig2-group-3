@@ -1,4 +1,10 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
+$skinColor2: #fce0ce;
+$pantsColor2: #c77161;
+$primaryBlue: #00b1dc;
+$primaryGreen: #a1cf6d;
+$white: #fff;
+
 .poster {
   max-width: 842px;
   max-height: 1192px;
@@ -10,6 +16,104 @@
   max-width: 100%;
   max-height: 100%;
   opacity: 50%;
+}
+
+.clouds {
+  #cloud1 {
+    z-index: 2;
+    position: absolute;
+    max-width: 3.9%;
+    top: 52.5%;
+    left: 11.4%;
+  }
+  #cloud2 {
+    z-index: 2;
+    position: absolute;
+    max-width: 3.9%;
+    top: 50.7%;
+    left: 27.1%;
+  }
+  #cloud-brows1 {
+    z-index: 2;
+    position: absolute;
+    max-width: 5%;
+    top: 40%;
+    left: 30%;
+  }
+  #cloud3 {
+    z-index: 2;
+    position: absolute;
+    max-width: 3.9%;
+    top: 54.4%;
+    left: 34.1%;
+  }
+  #cloud4 {
+    z-index: 2;
+    position: absolute;
+    max-width: 3.9%;
+    top: 48.8%;
+    left: 36.1%;
+  }
+  #cloud5 {
+    z-index: 2;
+    position: absolute;
+    max-width: 3.9%;
+    top: 46.4%;
+    left: 44.2%;
+  }
+  #cloud-brows2 {
+    z-index: 2;
+    position: absolute;
+    max-width: 9.7%;
+    top: 44%;
+    left: 55.3%;
+  }
+  #cloud-brows3 {
+    z-index: 2;
+    position: absolute;
+    max-width: 5.9%;
+    top: 39.8%;
+    left: 72%;
+  }
+  #cloud6 {
+    z-index: 2;
+    position: absolute;
+    max-width: 3.9%;
+    top: 46.3%;
+    left: 73.5%;
+  }
+  #cloud7 {
+    z-index: 2;
+    position: absolute;
+    max-width: 3.9%;
+    top: 43.55%;
+    left: 81.3%;
+  }
+  #cloud8 {
+    z-index: 2;
+    position: absolute;
+    max-width: 3.9%;
+    top: 52.15%;
+    left: 82.75%;
+  }
+
+  .cloud-eyes {
+    fill: $white;
+    stroke-width: 4.6px;
+    stroke: #231f20;
+  }
+
+  .cloud-pupils {
+    fill: $primaryGreen;
+  }
+
+  .cloud-mouth {
+    stroke: #231f20;
+  }
+
+  .cloud-fill {
+    fill: $primaryGreen;
+  }
 }
 
 .characters {
@@ -32,13 +136,27 @@
       fill: #f5ec43;
     }
   }
+
   #character-middle {
     z-index: 2;
     position: absolute;
     max-width: 17.5%;
     top: 49.7%;
     left: 39.9%;
+
+    .character-middle-skin {
+      fill: $skinColor2;
+    }
+    
+    #character-middle-shirt {
+      fill: $primaryBlue;
+    }
+
+    #character-middle-pants {
+      fill: $pantsColor2;
+    }
   }
+
   #character-right {
     z-index: 2;
     position: absolute;
@@ -57,16 +175,16 @@
     #character-right-shirt {
       fill: #a1cf6d;
     }
-
-    
   }
+
   .stroke {
     stroke: #231f20;
     stroke-width: 4.6px;
   }
+
   .character-eye {
       fill: #fff;
-    }
+  }
 
   .character-card {
       fill: none;
@@ -81,7 +199,7 @@
 }
 
 .earth-ocean-fill {
-  fill: #00b1dc;
+  fill: $primaryBlue;
 }
 
 .earth-land {
