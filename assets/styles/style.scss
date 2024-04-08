@@ -22,6 +22,31 @@
     top: 63.2%;
   }
 
+  .earth-ocean-fill {
+    fill: #00b1dc;
+  }
+
+  .earth-land {
+    fill: #a1cf6d;
+  }
+
+  .earth-land-bottom, 
+  .earth-land-right,
+  .earth-land-top,
+  .earth-land-left {
+    fill: #a1cf6d;
+    stroke-width: 4.6px;
+    stroke: #231f20;
+  }
+
+  .earth-eye-white {
+    fill: #fff;
+  }
+
+  .earth-eye-black {
+    fill: #0a0203;
+  }
+
   #qr-code {
     position: absolute;
     max-width: 8.6%;
