@@ -381,6 +381,30 @@ $black: #231f20;
       letter-spacing: 0em;
     }
   }
+  #earth-text-right-top {
+    z-index: 3;
+    position: absolute;
+    max-width: 13.2%;
+    top: 66.2%;
+    left: 83.2%;
+
+    .text-right-top {
+      fill: #231f20;
+      stroke-width: 0px;
+    }
+  }
+  #earth-text-right-bottom {
+    z-index: 3;
+    position: absolute;
+    max-width: 12.7%;
+    top: 89.2%;
+    left: 83.7%;
+
+    .text-right-bottom {
+      fill: #231f20;
+      stroke-width: 0px;
+    }
+  }
 }
 
 #qr-code {
@@ -397,9 +421,95 @@ $black: #231f20;
   stroke-width: 0px;
 }
 
+p {
+  z-index: 3;
+  position: absolute;
+  top: 93.4%;
+  left: 5.1%;
+  fill: #231f20;
+  font-family: Marydale-Bold, Marydale;
+  font-size: 10px;
+  font-weight: 700;
+  max-width: 91%;
+  line-height: 120%;
+}
+
 #footer-background2 {
   position: absolute;
   top: 96.4%;
   fill: #005ba7;
   stroke-width: 0px;
+}
+
+#footer-ntnu-logo {
+  z-index: 3;
+  position: absolute;
+  max-width: 30%;
+  top: 97.3%;
+  left: 4.9%;
+
+  .logo-ntnu {
+  fill: #fff;
+  stroke-width: 0px;
+}
+}
+
+#footer-text-middle {
+  z-index: 3;
+  position: absolute;
+  max-width: 28.3%;
+  top: 97.4%;
+  left: 38.9%;
+
+  .footer-text {
+    fill: #fff;
+    stroke-width: 0px;
+  }
+}
+
+#footer-text-right {
+  z-index: 3;
+  position: absolute;
+  max-width: 17.8%;
+  top: 97.7%;
+  left: 77.1%;
+
+  text {
+    fill: #fff;
+    font-family: Marydale-Bold, Marydale;
+    font-size: 25.36px;
+    font-weight: 700;
+  }
+
+  .footer-text-u {
+    letter-spacing: -0.04em;
+  }
+
+  .footer-text-i {
+    letter-spacing: -0.03em;
+  }
+
+  .footer-text-c {
+    letter-spacing: -0.01em;
+  }
+
+  .footer-text-l {
+    letter-spacing: -0.02em;
+  }
+
+  .footer-text-c2 {
+    letter-spacing: -0.06em;
+  }
+
+  .footer-text-onosent {
+    letter-spacing: 0em;
+  }
+
+  .footer-text-k {
+    letter-spacing: -0.05em;
+  }
+
+  .footer-text-t {
+    letter-spacing: -0.03em;
+  }
 }
