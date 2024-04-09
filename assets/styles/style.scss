@@ -225,6 +225,164 @@ $black: #231f20;
   fill: #0a0203;
 }
 
+.earth-text-all {
+  fill: #231f20;
+  font-family: Marydale-Bold, Marydale;
+  font-weight: 700;
+
+  #earth-text-left {
+    z-index: 3;
+    position: absolute;
+    max-width: 13.6%;
+    top: 76.1%;
+    left: 10.5%;
+    font-size: 30px;
+
+    .text-left-g {
+      letter-spacing: -0.02em;
+    }
+
+    .text-left-yn {
+      letter-spacing: 0.02em;
+    }
+
+    .text-left-ttft {
+      letter-spacing: -0.06em;
+    }
+
+    .text-left-u {
+      letter-spacing: -0.02em;
+    }
+
+    .text-left-lda {
+      letter-spacing: -0.02em;
+    }
+
+    .text-left-r {
+      letter-spacing: -0.04em;
+    }
+
+    .text-left-fef {
+      letter-spacing: -0.02em;
+    }
+
+    .text-left-t {
+      letter-spacing: -0.03em;
+    }
+
+    .text-left-a {
+      letter-spacing: 0em;
+    }
+  }
+
+  #earth-text-top {
+    z-index: 3;
+    position: absolute;
+    max-width: 31.5%;
+    top: 67.8%;
+    left: 43.9%;
+    font-size: 30px;
+
+    .text-top-t {
+      letter-spacing: -0.06em;
+    }
+
+    .text-top-i {
+      letter-spacing: -0.02em;
+    }
+
+    .text-top-lfrud {
+      letter-spacing: -0.02em;
+    }
+
+    .text-top-kk {
+      letter-spacing: -0.04em;
+    }
+
+    .text-top-e {
+      letter-spacing: -0.02em;
+    }
+
+    .text-top-kr {
+      letter-spacing: -0.05em;
+    }
+
+    .text-top-r {
+      letter-spacing: 0.02em;
+    }
+
+    .text-top-t2 {
+      letter-spacing: 0.02em;
+    }
+  }
+
+  #earth-text-bottom {
+    z-index: 3;
+    position: absolute;
+    max-width: 10.3%;
+    top: 86.5%;
+    left: 46.7%;
+    font-size: 30px;
+
+    .text-bottom-n {
+      letter-spacing: 0.02em;
+    }
+
+    .text-bottom-t {
+      letter-spacing: -0.06em;
+    }
+
+    .text-bottom-ig {
+      letter-spacing: -0.02em;
+    }
+
+    .text-bottom-l {
+      letter-spacing: -0.02em;
+    }
+
+    .text-bottom-t2 {
+      letter-spacing: 0.02em;
+    }
+
+    .text-bottom-kr {
+      letter-spacing: -0.04em;
+    }
+
+    .text-bottom-e {
+      letter-spacing: -0.02em;
+    }
+
+    .text-bottom-t3 {
+      letter-spacing: -0.03em;
+    }
+  }
+
+  #earth-text-middle {
+    z-index: 3;
+    position: absolute;
+    max-width: 42.4%;
+    top: 79%;
+    left: 34%;
+    font-size: 94.9px;
+
+    .text-g {
+      letter-spacing: 0.05em;
+    }
+
+    .text-v {
+      letter-spacing: -0.02em;
+    }
+
+    .text-r {
+      letter-spacing: -0.04em;
+    }
+
+    .text-jo {
+      letter-spacing: 0em;
+    }
+  }
+}
+
 #qr-code {
   position: absolute;
   max-width: 8.6%;

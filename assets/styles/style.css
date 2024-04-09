@@ -194,6 +194,131 @@
   fill: #0a0203;
 }
 
+.earth-text-all {
+  fill: #231f20;
+  font-family: Marydale-Bold, Marydale;
+  font-weight: 700;
+}
+.earth-text-all #earth-text-left {
+  z-index: 3;
+  position: absolute;
+  max-width: 13.6%;
+  top: 76.1%;
+  left: 10.5%;
+  font-size: 30px;
+}
+.earth-text-all #earth-text-left .text-left-g {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-left .text-left-yn {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-left .text-left-ttft {
+  letter-spacing: -0.06em;
+}
+.earth-text-all #earth-text-left .text-left-u {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-left .text-left-lda {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-left .text-left-r {
+  letter-spacing: -0.04em;
+}
+.earth-text-all #earth-text-left .text-left-fef {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-left .text-left-t {
+  letter-spacing: -0.03em;
+}
+.earth-text-all #earth-text-left .text-left-a {
+  letter-spacing: 0em;
+}
+.earth-text-all #earth-text-top {
+  z-index: 3;
+  position: absolute;
+  max-width: 31.5%;
+  top: 67.8%;
+  left: 43.9%;
+  font-size: 30px;
+}
+.earth-text-all #earth-text-top .text-top-t {
+  letter-spacing: -0.06em;
+}
+.earth-text-all #earth-text-top .text-top-i {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-top .text-top-lfrud {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-top .text-top-kk {
+  letter-spacing: -0.04em;
+}
+.earth-text-all #earth-text-top .text-top-e {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-top .text-top-kr {
+  letter-spacing: -0.05em;
+}
+.earth-text-all #earth-text-top .text-top-r {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-top .text-top-t2 {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-bottom {
+  z-index: 3;
+  position: absolute;
+  max-width: 10.3%;
+  top: 86.5%;
+  left: 46.7%;
+  font-size: 30px;
+}
+.earth-text-all #earth-text-bottom .text-bottom-n {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-t {
+  letter-spacing: -0.06em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-ig {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-l {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-t2 {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-kr {
+  letter-spacing: -0.04em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-e {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-t3 {
+  letter-spacing: -0.03em;
+}
+.earth-text-all #earth-text-middle {
+  z-index: 3;
+  position: absolute;
+  max-width: 42.4%;
+  top: 79%;
+  left: 34%;
+  font-size: 94.9px;
+}
+.earth-text-all #earth-text-middle .text-g {
+  letter-spacing: 0.05em;
+}
+.earth-text-all #earth-text-middle .text-v {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-middle .text-r {
+  letter-spacing: -0.04em;
+}
+.earth-text-all #earth-text-middle .text-jo {
+  letter-spacing: 0em;
+}
+
 #qr-code {
   position: absolute;
   max-width: 8.6%;
