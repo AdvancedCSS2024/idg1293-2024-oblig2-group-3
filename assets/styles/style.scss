@@ -4,6 +4,7 @@
     max-height: 1192px;
     position: relative;
     /*border: 3px solid black;*/
+    overflow: hidden;
 }
 #poster-background-temp {
     max-width: 100%;
@@ -14,14 +15,8 @@
     pointer-events: none;
     /*opacity: 0;*/
 }
-#background-1, #background-2, #background-3, #background-4, #text-1, #text-2, #text-3 {
-    position: absolute;
-}
-#background-1 {
-    z-index: 4;
-    top: 0;
-    left: 0;
-}
+
+// SVG colors and font-family
 .fill-white {
     fill: #fff;
 }
@@ -52,6 +47,15 @@
     fill: #0fa15c;
 }
 
+// Background colors
+#background-1, #background-2, #background-3, #background-4, #text-1, #text-2, #text-3 {
+    position: absolute;
+}
+#background-1 {
+    z-index: 4;
+    top: 0;
+    left: 0;
+}
 #background-2 {
     z-index: 3;
     top: 1.1%;
@@ -64,11 +68,13 @@
     z-index: 1;
     bottom: 11.86%;
 }
+
 .animated-element {
     position: absolute;
-    z-index: 3;
+    z-index: 10;
 }
 
+// Text at top of poster
 #text-1, #text-2, #text-3 {
     left: 5.1%;
     z-index: 5;
@@ -87,6 +93,7 @@
     max-width: 44.8%;
 }
 
+// Car and curved text
 #curved-text {
     top: 33.2%;
     left: 2%;
@@ -96,13 +103,17 @@
 #curved-text path {
     fill: black;
 }
- #car {
-    top: 28.1%;
-    left: 41.8%;
-    width: 17.87410926365796%;
-    height: 11.282660332541568%;
+#car {
+    width: 100%;
+    position: absolute;
+    top: 24%;
+    left: -34%;
+}
+#car g {
+    transform: scale(18%);
 }
 
+// Moon and stars
 #moon {
     top: 10.6%;
     left: 65.1%;
@@ -127,7 +138,6 @@
     animation-name: starShake;
     animation-iteration-count: infinite;
 }
-
 @keyframes starShake {
     0% {
         transform: rotate(0deg);

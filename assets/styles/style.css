@@ -3,6 +3,7 @@
   max-height: 1192px;
   position: relative;
   /*border: 3px solid black;*/
+  overflow: hidden;
 }
 
 #poster-background-temp {
@@ -13,16 +14,6 @@
   z-index: 100;
   pointer-events: none;
   /*opacity: 0;*/
-}
-
-#background-1, #background-2, #background-3, #background-4, #text-1, #text-2, #text-3 {
-  position: absolute;
-}
-
-#background-1 {
-  z-index: 4;
-  top: 0;
-  left: 0;
 }
 
 .fill-white {
@@ -61,6 +52,16 @@
   fill: #0fa15c;
 }
 
+#background-1, #background-2, #background-3, #background-4, #text-1, #text-2, #text-3 {
+  position: absolute;
+}
+
+#background-1 {
+  z-index: 4;
+  top: 0;
+  left: 0;
+}
+
 #background-2 {
   z-index: 3;
   top: 1.1%;
@@ -78,7 +79,7 @@
 
 .animated-element {
   position: absolute;
-  z-index: 3;
+  z-index: 10;
 }
 
 #text-1, #text-2, #text-3 {
@@ -115,10 +116,14 @@
 }
 
 #car {
-  top: 28.1%;
-  left: 41.8%;
-  width: 17.8741092637%;
-  height: 11.2826603325%;
+  width: 100%;
+  position: absolute;
+  top: 24%;
+  left: -34%;
+}
+
+#car g {
+  transform: scale(18%);
 }
 
 #moon {
