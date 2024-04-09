@@ -1,9 +1,11 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
+$skinColor: #ad9282;
 $skinColor2: #fce0ce;
 $pantsColor2: #c77161;
 $primaryBlue: #00b1dc;
 $primaryGreen: #a1cf6d;
 $white: #fff;
+$black: #231f20;
 
 .poster {
   max-width: 842px;
@@ -36,9 +38,9 @@ $white: #fff;
   #cloud-brows1 {
     z-index: 2;
     position: absolute;
-    max-width: 5%;
-    top: 40%;
-    left: 30%;
+    max-width: 6%;
+    top: 45.5%;
+    left: 29.5%;
   }
   #cloud3 {
     z-index: 2;
@@ -100,7 +102,7 @@ $white: #fff;
   .cloud-eyes {
     fill: $white;
     stroke-width: 4.6px;
-    stroke: #231f20;
+    stroke: $black;
   }
 
   .cloud-pupils {
@@ -108,7 +110,7 @@ $white: #fff;
   }
 
   .cloud-mouth {
-    stroke: #231f20;
+    stroke: $black;
   }
 
   .cloud-fill {
@@ -125,7 +127,7 @@ $white: #fff;
     left: 12%;
 
     #character-left-skin {
-      fill: #ad9282;
+      fill: $skinColor;
     }
 
     #character-left-pants {
