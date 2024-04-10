@@ -8,29 +8,544 @@ $darkBlue: #005ba7;
 $primaryGreen: #a1cf6d;
 $yellow: #f5ec43;
 $green: #0fa15c;
+$moonGrey1: #B4B6B7;
+$moonGrey2: #EAEAE9;
 $white: #fff;
 $darkGrey: #231f20;
 $dark: #0a0203;
 $black: #000;
-$moonGrey1: #B4B6B7;
-$moonGrey2: #EAEAE9;
 
 .poster {
-    max-width: 842px;
-    max-height: 1192px;
-    position: relative;
-    /*border: 3px solid black;*/
-    overflow: hidden;
+  max-width: 842px;
+  max-height: 1192px;
+  position: relative;
+  overflow: hidden;
 }
+
 #background {
-    max-width: 100%;
-    max-height: 100%;
-    opacity: 50%;
-    position: inherit;
-    z-index: 100;
-    pointer-events: none;
-    /*opacity: 0;*/
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 50%;
+  position: inherit;
+  z-index: 100;
+  pointer-events: none;
 }
+
+.clouds {
+  #cloud1 {
+    z-index: 3;
+    position: absolute;
+    max-width: 3.9%;
+    top: 52.5%;
+    left: 11.4%;
+  }
+  #cloud2 {
+    z-index: 3;
+    position: absolute;
+    max-width: 3.9%;
+    top: 50.7%;
+    left: 27.1%;
+  }
+  #cloud-brows1 {
+    z-index: 3;
+    position: absolute;
+    max-width: 6%;
+    top: 45.5%;
+    left: 29.5%;
+  }
+  #cloud3 {
+    z-index: 3;
+    position: absolute;
+    max-width: 3.9%;
+    top: 54.4%;
+    left: 34.1%;
+  }
+  #cloud4 {
+    z-index: 3;
+    position: absolute;
+    max-width: 3.9%;
+    top: 48.8%;
+    left: 36.1%;
+  }
+  #cloud5 {
+    z-index: 3;
+    position: absolute;
+    max-width: 3.9%;
+    top: 46.4%;
+    left: 44.2%;
+  }
+  #cloud-brows2 {
+    z-index: 3;
+    position: absolute;
+    max-width: 9.7%;
+    top: 44%;
+    left: 55.3%;
+  }
+  #cloud-brows3 {
+    z-index: 3;
+    position: absolute;
+    max-width: 5.9%;
+    top: 39.8%;
+    left: 72%;
+  }
+  #cloud6 {
+    z-index: 3;
+    position: absolute;
+    max-width: 3.9%;
+    top: 46.3%;
+    left: 73.5%;
+  }
+  #cloud7 {
+    z-index: 3;
+    position: absolute;
+    max-width: 3.9%;
+    top: 43.55%;
+    left: 81.3%;
+  }
+  #cloud8 {
+    z-index: 3;
+    position: absolute;
+    max-width: 3.9%;
+    top: 52.15%;
+    left: 82.75%;
+  }
+
+  .cloud-eyes {
+    fill: $white;
+    stroke-width: 4.6px;
+    stroke: $dark;
+  }
+
+  .cloud-pupils {
+    fill: $primaryGreen;
+  }
+
+  .cloud-mouth {
+    stroke: $dark;
+  }
+
+  .cloud-fill {
+    fill: $primaryGreen;
+  }
+}
+
+.characters {
+  #character-left {
+    z-index: 3;
+    position: absolute;
+    max-width: 21.8%;
+    top: 53%;
+    left: 12%;
+
+    #character-left-skin {
+      fill: $skinColor;
+    }
+
+    #character-left-pants {
+      fill: $primaryGreen;
+    }
+
+    #character-left-shirt {
+      fill: $yellow;
+    }
+  }
+
+  #character-middle {
+    z-index: 3;
+    position: absolute;
+    max-width: 17.5%;
+    top: 49.7%;
+    left: 39.9%;
+
+    .character-middle-skin {
+      fill: $skinColor2;
+    }
+    
+    #character-middle-shirt {
+      fill: $primaryBlue;
+    }
+
+    #character-middle-pants {
+      fill: $pantsColor2;
+    }
+  }
+
+  #character-right {
+    z-index: 3;
+    position: absolute;
+    max-width: 24.1%;
+    top: 47%;
+    left: 59.5%;
+
+    #character-right-skin {
+      fill: $skinColor3;
+    }
+
+    #character-right-pants {
+      fill: $yellow;
+    }
+
+    #character-right-shirt {
+      fill: $primaryGreen;
+    }
+  }
+
+  .stroke {
+    stroke: $dark;
+    stroke-width: 4.6px;
+  }
+
+  .character-eye {
+      fill: $white;
+  }
+
+  .character-card {
+      fill: none;
+      stroke: $white;
+      stroke-width: 4.6px;
+  }
+}
+
+.planet {
+  #earth {
+  z-index: 2;
+  position: absolute;
+  top: 63.2%;
+
+  .earth-ocean-fill {
+  fill: $primaryBlue;
+  }
+
+  .earth-eye-black {
+  fill: $darkGrey;
+  }
+
+  .earth-eye-white {
+  fill: $white;
+  }
+  .earth-land {
+    fill: $primaryGreen;
+    stroke-width: 4.6px;
+    stroke: $darkGrey;
+  }
+  }
+}
+
+.earth-text-all {
+  fill: $darkGrey;
+  font-family: Marydale-Bold, Marydale;
+  font-weight: 700;
+
+  #earth-text-left {
+    z-index: 3;
+    position: absolute;
+    max-width: 13.6%;
+    top: 76.1%;
+    left: 10.5%;
+    font-size: 30px;
+
+    .text-left-g {
+      letter-spacing: -0.02em;
+    }
+
+    .text-left-yn {
+      letter-spacing: 0.02em;
+    }
+
+    .text-left-ttft {
+      letter-spacing: -0.06em;
+    }
+
+    .text-left-u {
+      letter-spacing: -0.02em;
+    }
+
+    .text-left-lda {
+      letter-spacing: -0.02em;
+    }
+
+    .text-left-r {
+      letter-spacing: -0.04em;
+    }
+
+    .text-left-fef {
+      letter-spacing: -0.02em;
+    }
+
+    .text-left-t {
+      letter-spacing: -0.03em;
+    }
+
+    .text-left-a {
+      letter-spacing: 0em;
+    }
+  }
+    #earth-text-top {
+    z-index: 3;
+    position: absolute;
+    max-width: 31.5%;
+    top: 67.8%;
+    left: 43.9%;
+    font-size: 30px;
+
+    .text-top-t {
+      letter-spacing: -0.06em;
+    }
+
+    .text-top-i {
+      letter-spacing: -0.02em;
+    }
+
+    .text-top-lfrud {
+      letter-spacing: -0.02em;
+    }
+
+    .text-top-kk {
+      letter-spacing: -0.04em;
+    }
+
+    .text-top-e {
+      letter-spacing: -0.02em;
+    }
+
+    .text-top-kr {
+      letter-spacing: -0.05em;
+    }
+
+    .text-top-r {
+      letter-spacing: 0.02em;
+    }
+
+    .text-top-t2 {
+      letter-spacing: 0.02em;
+    }
+  }
+
+  #earth-text-bottom {
+  z-index: 3;
+  position: absolute;
+  max-width: 10.3%;
+  top: 86.5%;
+  left: 46.7%;
+  font-size: 30px;
+
+  .text-bottom-n {
+    letter-spacing: 0.02em;
+  }
+
+  .text-bottom-t {
+    letter-spacing: -0.06em;
+  }
+    
+  .text-bottom-ig {
+      letter-spacing: -0.02em;
+  }
+
+  .text-bottom-l {
+      letter-spacing: -0.02em;
+  }
+
+  .text-bottom-t2 {
+      letter-spacing: 0.02em;
+  }
+
+  .text-bottom-kr {
+      letter-spacing: -0.04em;
+  }
+
+  .text-bottom-e {
+      letter-spacing: -0.02em;
+  }
+
+  .text-bottom-t3 {
+      letter-spacing: -0.03em;
+  }
+}
+
+#earth-text-middle {
+    z-index: 3;
+    position: absolute;
+    max-width: 42.4%;
+    top: 79%;
+    left: 34%;
+    font-size: 94.9px;
+
+    .text-g {
+      letter-spacing: 0.05em;
+    }
+
+    .text-v {
+      letter-spacing: -0.02em;
+    }
+
+    .text-r {
+      letter-spacing: -0.04em;
+    }
+
+    .text-jo {
+      letter-spacing: 0em;
+    }
+  }
+  #earth-text-right-top {
+    z-index: 3;
+    position: absolute;
+    max-width: 13.2%;
+    top: 66.2%;
+    left: 83.2%;
+
+    .text-right-top {
+      fill: $darkGrey;
+      stroke-width: 0px;
+    }
+  }
+  #earth-text-right-bottom {
+    z-index: 3;
+    position: absolute;
+    max-width: 12.7%;
+    top: 89.2%;
+    left: 83.7%;
+
+    .text-right-bottom {
+      fill: $darkGrey;
+      stroke-width: 0px;
+    }
+  }
+}
+
+#qr-code {
+  position: absolute;
+  max-width: 8.6%;
+  top: 87.5%;
+  left: 0.9%;
+}
+
+p {
+  z-index: 3;
+  position: absolute;
+  top: 93.4%;
+  left: 5.1%;
+  fill: $darkGrey;
+  font-family: Marydale-Bold, Marydale;
+  font-size: 7.5px;
+  font-weight: 700;
+  max-width: 91%;
+  line-height: 120%;
+}
+
+#footer-background {
+  z-index: 3;
+  position: absolute;
+  top: 94%;
+  fill: $white;
+  stroke-width: 0px;
+}
+
+#footer-background2 {
+  z-index: 3;
+  position: absolute;
+  top: 96.4%;
+  fill: $darkBlue;
+  stroke-width: 0px;
+}
+
+#footer-ntnu-logo {
+  z-index: 4;
+  position: absolute;
+  max-width: 30%;
+  top: 97.3%;
+  left: 4.9%;
+
+  .logo-ntnu {
+  fill: $white;
+  stroke-width: 0px;
+}
+}
+
+#footer-divider1 {
+  z-index: 4;
+  position: absolute;
+  max-width: 0.29%;
+  top: 96.7%;
+  left: 36.4%;
+
+  .divider {
+    fill: $white;
+    stroke-width: 0px;  
+  }
+}
+
+#footer-divider2 {
+  z-index: 4;
+  position: absolute;
+  max-width: 0.29%;
+  top: 96.7%;
+  left: 69.4%;
+
+  .divider {
+    fill: $white;
+    stroke-width: 0px;
+  }
+}
+
+
+#footer-text-middle {
+  z-index: 4;
+  position: absolute;
+  max-width: 28.3%;
+  top: 97.4%;
+  left: 38.9%;
+
+  .footer-text {
+    fill: $white;
+    stroke-width: 0px;
+  }
+}
+
+#footer-text-right {
+  z-index: 4;
+  position: absolute;
+  max-width: 17.8%;
+  top: 97.7%;
+  left: 77.1%;
+
+  text {
+    fill: $white;
+    font-family: Marydale-Bold, Marydale;
+    font-size: 25.36px;
+    font-weight: 700;
+  }
+
+  .footer-text-u {
+    letter-spacing: -0.04em;
+  }
+
+  .footer-text-i {
+    letter-spacing: -0.03em;
+  }
+
+  .footer-text-c {
+    letter-spacing: -0.01em;
+  }
+
+  .footer-text-l {
+    letter-spacing: -0.02em;
+  }
+
+  .footer-text-c2 {
+    letter-spacing: -0.06em;
+  }
+
+  .footer-text-onosent {
+    letter-spacing: 0em;
+  }
+
+  .footer-text-k {
+    letter-spacing: -0.05em;
+  }
+
+  .footer-text-t {
+    letter-spacing: -0.03em;
+  }
 
 // SVG colors and font-family
 .fill-white {

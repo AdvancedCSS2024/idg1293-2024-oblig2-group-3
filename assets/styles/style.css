@@ -2,7 +2,6 @@
   max-width: 842px;
   max-height: 1192px;
   position: relative;
-  /*border: 3px solid black;*/
   overflow: hidden;
 }
 
@@ -13,8 +12,448 @@
   position: inherit;
   z-index: 100;
   pointer-events: none;
-  /*opacity: 0;*/
 }
+
+.clouds #cloud1 {
+  z-index: 3;
+  position: absolute;
+  max-width: 3.9%;
+  top: 52.5%;
+  left: 11.4%;
+}
+.clouds #cloud2 {
+  z-index: 3;
+  position: absolute;
+  max-width: 3.9%;
+  top: 50.7%;
+  left: 27.1%;
+}
+.clouds #cloud-brows1 {
+  z-index: 3;
+  position: absolute;
+  max-width: 6%;
+  top: 45.5%;
+  left: 29.5%;
+}
+.clouds #cloud3 {
+  z-index: 3;
+  position: absolute;
+  max-width: 3.9%;
+  top: 54.4%;
+  left: 34.1%;
+}
+.clouds #cloud4 {
+  z-index: 3;
+  position: absolute;
+  max-width: 3.9%;
+  top: 48.8%;
+  left: 36.1%;
+}
+.clouds #cloud5 {
+  z-index: 3;
+  position: absolute;
+  max-width: 3.9%;
+  top: 46.4%;
+  left: 44.2%;
+}
+.clouds #cloud-brows2 {
+  z-index: 3;
+  position: absolute;
+  max-width: 9.7%;
+  top: 44%;
+  left: 55.3%;
+}
+.clouds #cloud-brows3 {
+  z-index: 3;
+  position: absolute;
+  max-width: 5.9%;
+  top: 39.8%;
+  left: 72%;
+}
+.clouds #cloud6 {
+  z-index: 3;
+  position: absolute;
+  max-width: 3.9%;
+  top: 46.3%;
+  left: 73.5%;
+}
+.clouds #cloud7 {
+  z-index: 3;
+  position: absolute;
+  max-width: 3.9%;
+  top: 43.55%;
+  left: 81.3%;
+}
+.clouds #cloud8 {
+  z-index: 3;
+  position: absolute;
+  max-width: 3.9%;
+  top: 52.15%;
+  left: 82.75%;
+}
+.clouds .cloud-eyes {
+  fill: #fff;
+  stroke-width: 4.6px;
+  stroke: #0a0203;
+}
+.clouds .cloud-pupils {
+  fill: #a1cf6d;
+}
+.clouds .cloud-mouth {
+  stroke: #0a0203;
+}
+.clouds .cloud-fill {
+  fill: #a1cf6d;
+}
+
+.characters #character-left {
+  z-index: 3;
+  position: absolute;
+  max-width: 21.8%;
+  top: 53%;
+  left: 12%;
+}
+.characters #character-left #character-left-skin {
+  fill: #ad9282;
+}
+.characters #character-left #character-left-pants {
+  fill: #a1cf6d;
+}
+.characters #character-left #character-left-shirt {
+  fill: #f5ec43;
+}
+.characters #character-middle {
+  z-index: 3;
+  position: absolute;
+  max-width: 17.5%;
+  top: 49.7%;
+  left: 39.9%;
+}
+.characters #character-middle .character-middle-skin {
+  fill: #fce0ce;
+}
+.characters #character-middle #character-middle-shirt {
+  fill: #00b1dc;
+}
+.characters #character-middle #character-middle-pants {
+  fill: #c77161;
+}
+.characters #character-right {
+  z-index: 3;
+  position: absolute;
+  max-width: 24.1%;
+  top: 47%;
+  left: 59.5%;
+}
+.characters #character-right #character-right-skin {
+  fill: #816c5d;
+}
+.characters #character-right #character-right-pants {
+  fill: #f5ec43;
+}
+.characters #character-right #character-right-shirt {
+  fill: #a1cf6d;
+}
+.characters .stroke {
+  stroke: #0a0203;
+  stroke-width: 4.6px;
+}
+.characters .character-eye {
+  fill: #fff;
+}
+.characters .character-card {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 4.6px;
+}
+
+.planet #earth {
+  z-index: 2;
+  position: absolute;
+  top: 63.2%;
+}
+.planet #earth .earth-ocean-fill {
+  fill: #00b1dc;
+}
+.planet #earth .earth-eye-black {
+  fill: #231f20;
+}
+.planet #earth .earth-eye-white {
+  fill: #fff;
+}
+.planet #earth .earth-land {
+  fill: #a1cf6d;
+  stroke-width: 4.6px;
+  stroke: #231f20;
+}
+
+.earth-text-all {
+  fill: #231f20;
+  font-family: Marydale-Bold, Marydale;
+  font-weight: 700;
+}
+.earth-text-all #earth-text-left {
+  z-index: 3;
+  position: absolute;
+  max-width: 13.6%;
+  top: 76.1%;
+  left: 10.5%;
+  font-size: 30px;
+}
+.earth-text-all #earth-text-left .text-left-g {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-left .text-left-yn {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-left .text-left-ttft {
+  letter-spacing: -0.06em;
+}
+.earth-text-all #earth-text-left .text-left-u {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-left .text-left-lda {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-left .text-left-r {
+  letter-spacing: -0.04em;
+}
+.earth-text-all #earth-text-left .text-left-fef {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-left .text-left-t {
+  letter-spacing: -0.03em;
+}
+.earth-text-all #earth-text-left .text-left-a {
+  letter-spacing: 0em;
+}
+.earth-text-all #earth-text-top {
+  z-index: 3;
+  position: absolute;
+  max-width: 31.5%;
+  top: 67.8%;
+  left: 43.9%;
+  font-size: 30px;
+}
+.earth-text-all #earth-text-top .text-top-t {
+  letter-spacing: -0.06em;
+}
+.earth-text-all #earth-text-top .text-top-i {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-top .text-top-lfrud {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-top .text-top-kk {
+  letter-spacing: -0.04em;
+}
+.earth-text-all #earth-text-top .text-top-e {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-top .text-top-kr {
+  letter-spacing: -0.05em;
+}
+.earth-text-all #earth-text-top .text-top-r {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-top .text-top-t2 {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-bottom {
+  z-index: 3;
+  position: absolute;
+  max-width: 10.3%;
+  top: 86.5%;
+  left: 46.7%;
+  font-size: 30px;
+}
+.earth-text-all #earth-text-bottom .text-bottom-n {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-t {
+  letter-spacing: -0.06em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-ig {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-l {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-t2 {
+  letter-spacing: 0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-kr {
+  letter-spacing: -0.04em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-e {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-bottom .text-bottom-t3 {
+  letter-spacing: -0.03em;
+}
+.earth-text-all #earth-text-middle {
+  z-index: 3;
+  position: absolute;
+  max-width: 42.4%;
+  top: 79%;
+  left: 34%;
+  font-size: 94.9px;
+}
+.earth-text-all #earth-text-middle .text-g {
+  letter-spacing: 0.05em;
+}
+.earth-text-all #earth-text-middle .text-v {
+  letter-spacing: -0.02em;
+}
+.earth-text-all #earth-text-middle .text-r {
+  letter-spacing: -0.04em;
+}
+.earth-text-all #earth-text-middle .text-jo {
+  letter-spacing: 0em;
+}
+.earth-text-all #earth-text-right-top {
+  z-index: 3;
+  position: absolute;
+  max-width: 13.2%;
+  top: 66.2%;
+  left: 83.2%;
+}
+.earth-text-all #earth-text-right-top .text-right-top {
+  fill: #231f20;
+  stroke-width: 0px;
+}
+.earth-text-all #earth-text-right-bottom {
+  z-index: 3;
+  position: absolute;
+  max-width: 12.7%;
+  top: 89.2%;
+  left: 83.7%;
+}
+.earth-text-all #earth-text-right-bottom .text-right-bottom {
+  fill: #231f20;
+  stroke-width: 0px;
+}
+
+#qr-code {
+  position: absolute;
+  max-width: 8.6%;
+  top: 87.5%;
+  left: 0.9%;
+}
+
+p {
+  z-index: 3;
+  position: absolute;
+  top: 93.4%;
+  left: 5.1%;
+  fill: #231f20;
+  font-family: Marydale-Bold, Marydale;
+  font-size: 7.5px;
+  font-weight: 700;
+  max-width: 91%;
+  line-height: 120%;
+}
+
+#footer-background {
+  z-index: 3;
+  position: absolute;
+  top: 94%;
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+#footer-background2 {
+  z-index: 3;
+  position: absolute;
+  top: 96.4%;
+  fill: #005ba7;
+  stroke-width: 0px;
+}
+
+#footer-ntnu-logo {
+  z-index: 4;
+  position: absolute;
+  max-width: 30%;
+  top: 97.3%;
+  left: 4.9%;
+}
+#footer-ntnu-logo .logo-ntnu {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+#footer-divider1 {
+  z-index: 4;
+  position: absolute;
+  max-width: 0.29%;
+  top: 96.7%;
+  left: 36.4%;
+}
+#footer-divider1 .divider {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+#footer-divider2 {
+  z-index: 4;
+  position: absolute;
+  max-width: 0.29%;
+  top: 96.7%;
+  left: 69.4%;
+}
+#footer-divider2 .divider {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+#footer-text-middle {
+  z-index: 4;
+  position: absolute;
+  max-width: 28.3%;
+  top: 97.4%;
+  left: 38.9%;
+}
+#footer-text-middle .footer-text {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+#footer-text-right {
+  z-index: 4;
+  position: absolute;
+  max-width: 17.8%;
+  top: 97.7%;
+  left: 77.1%;
+}
+#footer-text-right text {
+  fill: #fff;
+  font-family: Marydale-Bold, Marydale;
+  font-size: 25.36px;
+  font-weight: 700;
+}
+#footer-text-right .footer-text-u {
+  letter-spacing: -0.04em;
+}
+#footer-text-right .footer-text-i {
+  letter-spacing: -0.03em;
+}
+#footer-text-right .footer-text-c {
+  letter-spacing: -0.01em;
+}
+#footer-text-right .footer-text-l {
+  letter-spacing: -0.02em;
+}
+#footer-text-right .footer-text-c2 {
+  letter-spacing: -0.06em;
+}
+#footer-text-right .footer-text-onosent {
+  letter-spacing: 0em;
+}
+#footer-text-right .footer-text-k {
+  letter-spacing: -0.05em;
+}
+#footer-text-right .footer-text-t {
+  letter-spacing: -0.03em;
 
 .fill-white {
   fill: #fff;
@@ -224,4 +663,5 @@
     top: 25%;
     left: -34%;
   }
+
 }/*# sourceMappingURL=style.css.map */
