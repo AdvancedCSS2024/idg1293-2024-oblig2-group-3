@@ -15,77 +15,77 @@
 }
 
 .clouds #cloud1 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 3.9%;
   top: 52.5%;
   left: 11.4%;
 }
 .clouds #cloud2 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 3.9%;
   top: 50.7%;
   left: 27.1%;
 }
 .clouds #cloud-brows1 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 6%;
   top: 45.5%;
   left: 29.5%;
 }
 .clouds #cloud3 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 3.9%;
   top: 54.4%;
   left: 34.1%;
 }
 .clouds #cloud4 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 3.9%;
   top: 48.8%;
   left: 36.1%;
 }
 .clouds #cloud5 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 3.9%;
   top: 46.4%;
   left: 44.2%;
 }
 .clouds #cloud-brows2 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 9.7%;
   top: 44%;
   left: 55.3%;
 }
 .clouds #cloud-brows3 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 5.9%;
   top: 39.8%;
   left: 72%;
 }
 .clouds #cloud6 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 3.9%;
   top: 46.3%;
   left: 73.5%;
 }
 .clouds #cloud7 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 3.9%;
   top: 43.55%;
   left: 81.3%;
 }
 .clouds #cloud8 {
-  z-index: 3;
+  z-index: 11;
   position: absolute;
   max-width: 3.9%;
   top: 52.15%;
@@ -167,8 +167,46 @@
   stroke-width: 4.6px;
 }
 
+.planet .earth-eye-white {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  animation-name: eyeShaking;
+  animation-duration: 0.22s;
+  animation-iteration-count: infinite;
+}
+.planet .eye-left {
+  width: 8%;
+  height: 7%;
+  top: 88.5%;
+  left: 26%;
+}
+.planet .eye-right {
+  width: 7%;
+  height: 7%;
+  top: 90.5%;
+  right: 27.5%;
+}
+@keyframes eyeShaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(6%);
+  }
+  50% {
+    transform: translateX(-6%);
+  }
+  75% {
+    transform: translateX(6%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 .planet #earth {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   top: 63.2%;
 }
@@ -177,9 +215,6 @@
 }
 .planet #earth .earth-eye-black {
   fill: #231f20;
-}
-.planet #earth .earth-eye-white {
-  fill: #fff;
 }
 .planet #earth .earth-land {
   fill: #a1cf6d;
@@ -341,119 +376,113 @@
   left: 0.9%;
 }
 
-p {
-  z-index: 3;
+.footer p {
+  z-index: 5;
   position: absolute;
   top: 93.4%;
   left: 5.1%;
   fill: #231f20;
   font-family: Marydale-Bold, Marydale;
-  font-size: 7.5px;
+  font-size: 1.145vw;
   font-weight: 700;
   max-width: 91%;
   line-height: 120%;
 }
-
-#footer-background {
-  z-index: 3;
+.footer #footer-background {
+  z-index: 5;
   position: absolute;
-  top: 94%;
+  top: 94.1%;
   fill: #fff;
   stroke-width: 0px;
 }
-
-#footer-background2 {
-  z-index: 3;
+.footer #footer-background2 {
+  z-index: 5;
   position: absolute;
   top: 96.4%;
   fill: #005ba7;
   stroke-width: 0px;
 }
-
-#footer-ntnu-logo {
-  z-index: 4;
+.footer #footer-ntnu-logo {
+  z-index: 5;
   position: absolute;
   max-width: 30%;
   top: 97.3%;
   left: 4.9%;
 }
-#footer-ntnu-logo .logo-ntnu {
+.footer #footer-ntnu-logo .logo-ntnu {
   fill: #fff;
   stroke-width: 0px;
 }
-
-#footer-divider1 {
-  z-index: 4;
+.footer #footer-divider1 {
+  z-index: 5;
   position: absolute;
   max-width: 0.29%;
   top: 96.7%;
   left: 36.4%;
 }
-#footer-divider1 .divider {
+.footer #footer-divider1 .divider {
   fill: #fff;
   stroke-width: 0px;
 }
-
-#footer-divider2 {
-  z-index: 4;
+.footer #footer-divider2 {
+  z-index: 5;
   position: absolute;
   max-width: 0.29%;
   top: 96.7%;
   left: 69.4%;
 }
-#footer-divider2 .divider {
+.footer #footer-divider2 .divider {
   fill: #fff;
   stroke-width: 0px;
 }
-
-#footer-text-middle {
-  z-index: 4;
+.footer #footer-text-middle {
+  z-index: 5;
   position: absolute;
   max-width: 28.3%;
   top: 97.4%;
   left: 38.9%;
 }
-#footer-text-middle .footer-text {
+.footer #footer-text-middle .footer-text {
   fill: #fff;
   stroke-width: 0px;
 }
-
-#footer-text-right {
-  z-index: 4;
+.footer #footer-text-right {
+  z-index: 5;
   position: absolute;
   max-width: 17.8%;
   top: 97.7%;
   left: 77.1%;
 }
-#footer-text-right text {
+.footer #footer-text-right text {
   fill: #fff;
   font-family: Marydale-Bold, Marydale;
   font-size: 25.36px;
   font-weight: 700;
 }
-#footer-text-right .footer-text-u {
+.footer #footer-text-right .footer-text-u {
   letter-spacing: -0.04em;
 }
-#footer-text-right .footer-text-i {
+.footer #footer-text-right .footer-text-i {
   letter-spacing: -0.03em;
 }
-#footer-text-right .footer-text-c {
+.footer #footer-text-right .footer-text-c {
   letter-spacing: -0.01em;
 }
-#footer-text-right .footer-text-l {
+.footer #footer-text-right .footer-text-l {
   letter-spacing: -0.02em;
 }
-#footer-text-right .footer-text-c2 {
+.footer #footer-text-right .footer-text-c2 {
   letter-spacing: -0.06em;
 }
-#footer-text-right .footer-text-onosent {
+.footer #footer-text-right .footer-text-onosent {
   letter-spacing: 0em;
 }
-#footer-text-right .footer-text-k {
+.footer #footer-text-right .footer-text-k {
   letter-spacing: -0.05em;
 }
-#footer-text-right .footer-text-t {
+.footer #footer-text-right .footer-text-t {
   letter-spacing: -0.03em;
+}
 
 .fill-white {
   fill: #fff;
@@ -663,5 +692,9 @@ p {
     top: 25%;
     left: -34%;
   }
-
+}
+@media (min-width: 875px) {
+  .footer p {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
