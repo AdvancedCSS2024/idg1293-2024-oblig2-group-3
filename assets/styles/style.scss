@@ -1,11 +1,15 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
 $skinColor: #ad9282;
 $skinColor2: #fce0ce;
+$skinColor3: #816c5d;
 $pantsColor2: #c77161;
 $primaryBlue: #00b1dc;
+$darkBlue: #005ba7;
 $primaryGreen: #a1cf6d;
+$yellow: #f5ec43;
 $white: #fff;
-$black: #231f20;
+$darkGrey: #231f20;
+$black: #0a0203;
 
 .poster {
   max-width: 842px;
@@ -131,11 +135,11 @@ $black: #231f20;
     }
 
     #character-left-pants {
-      fill: #a1cf6d;
+      fill: $primaryGreen;
     }
 
     #character-left-shirt {
-      fill: #f5ec43;
+      fill: $yellow;
     }
   }
 
@@ -167,66 +171,60 @@ $black: #231f20;
     left: 59.5%;
 
     #character-right-skin {
-      fill: #816c5d;
+      fill: $skinColor3;
     }
 
     #character-right-pants {
-      fill: #f5ec43;
+      fill: $yellow;
     }
 
     #character-right-shirt {
-      fill: #a1cf6d;
+      fill: $primaryGreen;
     }
   }
 
   .stroke {
-    stroke: #231f20;
+    stroke: $black;
     stroke-width: 4.6px;
   }
 
   .character-eye {
-      fill: #fff;
+      fill: $white;
   }
 
   .character-card {
       fill: none;
-      stroke: #fff;
+      stroke: $white;
       stroke-width: 4.6px;
   }
 }
 
-#earth {
+.planet {
+  #earth {
   position: absolute;
   top: 63.2%;
-}
 
-.earth-ocean-fill {
+  .earth-ocean-fill {
   fill: $primaryBlue;
-}
+  }
 
-.earth-land {
-  fill: #a1cf6d;
-}
+  .earth-eye-black {
+  fill: $darkGrey;
+  }
 
-.earth-land-bottom,
-.earth-land-right,
-.earth-land-top,
-.earth-land-left {
-  fill: #a1cf6d;
-  stroke-width: 4.6px;
-  stroke: #231f20;
-}
-
-.earth-eye-white {
-  fill: #fff;
-}
-
-.earth-eye-black {
-  fill: #0a0203;
+  .earth-eye-white {
+  fill: $white;
+  }
+  .earth-land {
+    fill: $primaryGreen;
+    stroke-width: 4.6px;
+    stroke: $darkGrey;
+  }
+  }
 }
 
 .earth-text-all {
-  fill: #231f20;
+  fill: $darkGrey;
   font-family: Marydale-Bold, Marydale;
   font-weight: 700;
 
@@ -274,8 +272,7 @@ $black: #231f20;
       letter-spacing: 0em;
     }
   }
-
-  #earth-text-top {
+    #earth-text-top {
     z-index: 3;
     position: absolute;
     max-width: 31.5%;
@@ -317,47 +314,47 @@ $black: #231f20;
   }
 
   #earth-text-bottom {
-    z-index: 3;
-    position: absolute;
-    max-width: 10.3%;
-    top: 86.5%;
-    left: 46.7%;
-    font-size: 30px;
+  z-index: 3;
+  position: absolute;
+  max-width: 10.3%;
+  top: 86.5%;
+  left: 46.7%;
+  font-size: 30px;
 
-    .text-bottom-n {
-      letter-spacing: 0.02em;
-    }
-
-    .text-bottom-t {
-      letter-spacing: -0.06em;
-    }
-
-    .text-bottom-ig {
-      letter-spacing: -0.02em;
-    }
-
-    .text-bottom-l {
-      letter-spacing: -0.02em;
-    }
-
-    .text-bottom-t2 {
-      letter-spacing: 0.02em;
-    }
-
-    .text-bottom-kr {
-      letter-spacing: -0.04em;
-    }
-
-    .text-bottom-e {
-      letter-spacing: -0.02em;
-    }
-
-    .text-bottom-t3 {
-      letter-spacing: -0.03em;
-    }
+  .text-bottom-n {
+    letter-spacing: 0.02em;
   }
 
-  #earth-text-middle {
+  .text-bottom-t {
+    letter-spacing: -0.06em;
+  }
+    
+  .text-bottom-ig {
+      letter-spacing: -0.02em;
+  }
+
+  .text-bottom-l {
+      letter-spacing: -0.02em;
+  }
+
+  .text-bottom-t2 {
+      letter-spacing: 0.02em;
+  }
+
+  .text-bottom-kr {
+      letter-spacing: -0.04em;
+  }
+
+  .text-bottom-e {
+      letter-spacing: -0.02em;
+  }
+
+  .text-bottom-t3 {
+      letter-spacing: -0.03em;
+  }
+}
+
+#earth-text-middle {
     z-index: 3;
     position: absolute;
     max-width: 42.4%;
@@ -389,7 +386,7 @@ $black: #231f20;
     left: 83.2%;
 
     .text-right-top {
-      fill: #231f20;
+      fill: $darkGrey;
       stroke-width: 0px;
     }
   }
@@ -401,7 +398,7 @@ $black: #231f20;
     left: 83.7%;
 
     .text-right-bottom {
-      fill: #231f20;
+      fill: $darkGrey;
       stroke-width: 0px;
     }
   }
@@ -414,19 +411,12 @@ $black: #231f20;
   left: 0.9%;
 }
 
-#footer-background {
-  position: absolute;
-  top: 94%;
-  fill: #fff;
-  stroke-width: 0px;
-}
-
 p {
   z-index: 3;
   position: absolute;
   top: 93.4%;
   left: 5.1%;
-  fill: #231f20;
+  fill: $darkGrey;
   font-family: Marydale-Bold, Marydale;
   font-size: 10px;
   font-weight: 700;
@@ -434,10 +424,17 @@ p {
   line-height: 120%;
 }
 
+#footer-background {
+  position: absolute;
+  top: 94%;
+  fill: $white;
+  stroke-width: 0px;
+}
+
 #footer-background2 {
   position: absolute;
   top: 96.4%;
-  fill: #005ba7;
+  fill: $darkBlue;
   stroke-width: 0px;
 }
 
@@ -449,10 +446,37 @@ p {
   left: 4.9%;
 
   .logo-ntnu {
-  fill: #fff;
+  fill: $white;
   stroke-width: 0px;
 }
 }
+
+#footer-divider1 {
+  z-index: 3;
+  position: absolute;
+  max-width: 0.29%;
+  top: 96.7%;
+  left: 36.4%;
+
+  .divider {
+    fill: $white;
+    stroke-width: 0px;  
+  }
+}
+
+#footer-divider2 {
+  z-index: 3;
+  position: absolute;
+  max-width: 0.29%;
+  top: 96.7%;
+  left: 69.4%;
+
+  .divider {
+    fill: $white;
+    stroke-width: 0px;
+  }
+}
+
 
 #footer-text-middle {
   z-index: 3;
@@ -462,7 +486,7 @@ p {
   left: 38.9%;
 
   .footer-text {
-    fill: #fff;
+    fill: $white;
     stroke-width: 0px;
   }
 }
@@ -475,7 +499,7 @@ p {
   left: 77.1%;
 
   text {
-    fill: #fff;
+    fill: $white;
     font-family: Marydale-Bold, Marydale;
     font-size: 25.36px;
     font-weight: 700;

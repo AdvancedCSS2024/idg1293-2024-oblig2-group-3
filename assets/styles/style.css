@@ -91,13 +91,13 @@
 .clouds .cloud-eyes {
   fill: #fff;
   stroke-width: 4.6px;
-  stroke: #231f20;
+  stroke: #0a0203;
 }
 .clouds .cloud-pupils {
   fill: #a1cf6d;
 }
 .clouds .cloud-mouth {
-  stroke: #231f20;
+  stroke: #0a0203;
 }
 .clouds .cloud-fill {
   fill: #a1cf6d;
@@ -152,7 +152,7 @@
   fill: #a1cf6d;
 }
 .characters .stroke {
-  stroke: #231f20;
+  stroke: #0a0203;
   stroke-width: 4.6px;
 }
 .characters .character-eye {
@@ -164,17 +164,23 @@
   stroke-width: 4.6px;
 }
 
-#earth {
+.planet #earth {
   position: absolute;
   top: 63.2%;
 }
-
-.earth-ocean-fill {
+.planet #earth .earth-ocean-fill {
   fill: #00b1dc;
 }
-
-.earth-land {
+.planet #earth .earth-eye-black {
+  fill: #231f20;
+}
+.planet #earth .earth-eye-white {
+  fill: #fff;
+}
+.planet #earth .earth-land {
   fill: #a1cf6d;
+  stroke-width: 4.6px;
+  stroke: #231f20;
 }
 
 .earth-land-bottom,
@@ -182,16 +188,6 @@
 .earth-land-top,
 .earth-land-left {
   fill: #a1cf6d;
-  stroke-width: 4.6px;
-  stroke: #231f20;
-}
-
-.earth-eye-white {
-  fill: #fff;
-}
-
-.earth-eye-black {
-  fill: #0a0203;
 }
 
 .earth-text-all {
@@ -383,6 +379,30 @@ p {
   left: 4.9%;
 }
 #footer-ntnu-logo .logo-ntnu {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+#footer-divider1 {
+  z-index: 3;
+  position: absolute;
+  max-width: 0.29%;
+  top: 96.7%;
+  left: 36.4%;
+}
+#footer-divider1 .divider {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+#footer-divider2 {
+  z-index: 3;
+  position: absolute;
+  max-width: 0.29%;
+  top: 96.7%;
+  left: 69.4%;
+}
+#footer-divider2 .divider {
   fill: #fff;
   stroke-width: 0px;
 }
