@@ -12,77 +12,77 @@
 }
 
 .clouds #cloud1 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 3.9%;
   top: 52.5%;
   left: 11.4%;
 }
 .clouds #cloud2 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 3.9%;
   top: 50.7%;
   left: 27.1%;
 }
 .clouds #cloud-brows1 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 6%;
   top: 45.5%;
   left: 29.5%;
 }
 .clouds #cloud3 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 3.9%;
   top: 54.4%;
   left: 34.1%;
 }
 .clouds #cloud4 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 3.9%;
   top: 48.8%;
   left: 36.1%;
 }
 .clouds #cloud5 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 3.9%;
   top: 46.4%;
   left: 44.2%;
 }
 .clouds #cloud-brows2 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 9.7%;
   top: 44%;
   left: 55.3%;
 }
 .clouds #cloud-brows3 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 5.9%;
   top: 39.8%;
   left: 72%;
 }
 .clouds #cloud6 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 3.9%;
   top: 46.3%;
   left: 73.5%;
 }
 .clouds #cloud7 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 3.9%;
   top: 43.55%;
   left: 81.3%;
 }
 .clouds #cloud8 {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 3.9%;
   top: 52.15%;
@@ -104,7 +104,7 @@
 }
 
 .characters #character-left {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 21.8%;
   top: 53%;
@@ -120,7 +120,7 @@
   fill: #f5ec43;
 }
 .characters #character-middle {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 17.5%;
   top: 49.7%;
@@ -136,7 +136,7 @@
   fill: #c77161;
 }
 .characters #character-right {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   max-width: 24.1%;
   top: 47%;
@@ -165,6 +165,7 @@
 }
 
 .planet #earth {
+  z-index: 2;
   position: absolute;
   top: 63.2%;
 }
@@ -181,13 +182,6 @@
   fill: #a1cf6d;
   stroke-width: 4.6px;
   stroke: #231f20;
-}
-
-.earth-land-bottom,
-.earth-land-right,
-.earth-land-top,
-.earth-land-left {
-  fill: #a1cf6d;
 }
 
 .earth-text-all {
@@ -344,13 +338,6 @@
   left: 0.9%;
 }
 
-#footer-background {
-  position: absolute;
-  top: 94%;
-  fill: #fff;
-  stroke-width: 0px;
-}
-
 p {
   z-index: 3;
   position: absolute;
@@ -364,7 +351,16 @@ p {
   line-height: 120%;
 }
 
+#footer-background {
+  z-index: 3;
+  position: absolute;
+  top: 94%;
+  fill: #fff;
+  stroke-width: 0px;
+}
+
 #footer-background2 {
+  z-index: 3;
   position: absolute;
   top: 96.4%;
   fill: #005ba7;
@@ -372,7 +368,7 @@ p {
 }
 
 #footer-ntnu-logo {
-  z-index: 3;
+  z-index: 4;
   position: absolute;
   max-width: 30%;
   top: 97.3%;
@@ -384,7 +380,7 @@ p {
 }
 
 #footer-divider1 {
-  z-index: 3;
+  z-index: 4;
   position: absolute;
   max-width: 0.29%;
   top: 96.7%;
@@ -396,7 +392,7 @@ p {
 }
 
 #footer-divider2 {
-  z-index: 3;
+  z-index: 4;
   position: absolute;
   max-width: 0.29%;
   top: 96.7%;
@@ -408,7 +404,7 @@ p {
 }
 
 #footer-text-middle {
-  z-index: 3;
+  z-index: 4;
   position: absolute;
   max-width: 28.3%;
   top: 97.4%;
@@ -420,7 +416,7 @@ p {
 }
 
 #footer-text-right {
-  z-index: 3;
+  z-index: 4;
   position: absolute;
   max-width: 17.8%;
   top: 97.7%;
