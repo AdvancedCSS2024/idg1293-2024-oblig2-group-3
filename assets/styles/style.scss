@@ -136,9 +136,9 @@ $moonGrey2: #EAEAE9;
 }
 #car {
     width: 100%;
-    top: 24%;
-    left: -34%;
-    z-index: 101;
+    top: -150%;
+    left: -200%;
+    z-index: 10;
     g {
         transform: scale(18%);
     }
@@ -187,5 +187,40 @@ $moonGrey2: #EAEAE9;
     }
     100% {
         transform: rotate(0deg);
+    }
+}
+
+// Car media queries
+@media (min-width: 100px) {
+    #car {
+        top: -70%;
+        left: -200%;
+    }
+}
+@media (min-width: 200px) {
+    #car {
+        top: -30%;
+        left: -34%;
+    }
+}
+@media (min-width: 300px) {
+    #car {
+        top: 0;
+    }
+}
+@media (min-width: 400px) {
+    #car {
+        top: 10%;
+    }
+}
+@media (min-width: 600px) {
+    #car {
+        top: 20%;
+    }
+}
+@media (min-width: 840px) {
+    #car {
+        top: 25%;
+        left: -34%;
     }
 }
