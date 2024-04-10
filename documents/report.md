@@ -1,0 +1,2 @@
+Animated some of the "clouds" using animateTransform type="translate" to make it move side to side to make a shiver effect.
+Some of the other clouds is animated using animateTransform type="scale" to make them scale up and down. 

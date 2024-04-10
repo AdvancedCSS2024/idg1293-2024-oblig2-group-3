@@ -18,10 +18,14 @@ $black: #0a0203;
   /*border: 3px solid black;*/
 }
 
-#poster-background-temp {
+#background {
   max-width: 100%;
   max-height: 100%;
   opacity: 50%;
+  position: inherit;
+  z-index: 100;
+  pointer-events: none;
+  /*opacity: 0;*/
 }
 
 .clouds {
