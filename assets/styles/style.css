@@ -2,7 +2,7 @@
   max-width: 842px;
   max-height: 1192px;
   position: relative;
-  /*border: 3px solid black;*/
+  overflow: hidden;
 }
 
 #background {
@@ -12,7 +12,6 @@
   position: inherit;
   z-index: 100;
   pointer-events: none;
-  /*opacity: 0;*/
 }
 
 .clouds #cloud1 {
@@ -455,4 +454,214 @@ p {
 }
 #footer-text-right .footer-text-t {
   letter-spacing: -0.03em;
+
+.fill-white {
+  fill: #fff;
+}
+
+.fill-blue {
+  fill: #005ba7;
+}
+
+.fill-moonGrey1 {
+  fill: #B4B6B7;
+}
+
+.fill-moonGrey2 {
+  fill: #EAEAE9;
+}
+
+.fill-darkGrey {
+  fill: #231f20;
+}
+
+.fill-yellow {
+  fill: #f5ec43;
+}
+
+.fill-pantsColor2 {
+  fill: #c77161;
+}
+
+.marydale-black {
+  fill: #231f20;
+  font-family: Marydale-Bold, Marydale;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.marydale-white {
+  fill: #fff;
+  font-family: Marydale-Bold, Marydale;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.blue-background {
+  fill: #00b1dc;
+  opacity: 0.15;
+}
+
+.red-background {
+  fill: #c77161;
+  opacity: 0.38;
+}
+
+.fill-green {
+  fill: #0fa15c;
+}
+
+#background-1, #background-2, #background-3, #background-4, #text-1, #text-2, #text-3 {
+  position: absolute;
+}
+
+#background-1 {
+  z-index: 4;
+  top: 0;
+  left: 0;
+}
+
+#background-2 {
+  z-index: 3;
+  top: 1.1%;
+}
+
+#background-3 {
+  z-index: 2;
+  top: 24.7%;
+}
+
+#background-4 {
+  z-index: 1;
+  bottom: 11.86%;
+}
+
+.animated-element {
+  position: absolute;
+  z-index: 10;
+}
+
+#text-1, #text-2, #text-3 {
+  left: 5.1%;
+  z-index: 5;
+}
+
+#text-1, #text-2 {
+  max-width: 30%;
+}
+
+#text-1 {
+  top: 3.65%;
+}
+
+#text-2 {
+  top: 11.3%;
+}
+
+#text-3 {
+  top: 21.9%;
+  max-width: 44.8%;
+}
+
+#curved-text {
+  top: 33.2%;
+  left: 2%;
+  width: 38.0641330166%;
+  height: 16.3301662708%;
+}
+#curved-text path {
+  fill: #000;
+}
+
+#car {
+  width: 100%;
+  top: -150%;
+  left: -200%;
+  z-index: 10;
+}
+#car g {
+  transform: scale(18%);
+}
+
+#moon {
+  top: 10.6%;
+  left: 65.1%;
+  width: 23.45%;
+  height: 22.8028503563%;
+}
+
+#star-1 {
+  top: 9.55%;
+  left: 84%;
+  width: 6.6508313539%;
+  height: 7.3040380048%;
+  animation-duration: 0.8s;
+}
+#star-1 path {
+  fill: #f5ec43;
+}
+
+#star-2 {
+  top: 16.8%;
+  left: 90%;
+  width: 4.9881235154%;
+  height: 5.0475059382%;
+  animation-duration: 1.2s;
+}
+#star-2 path {
+  fill: #f5ec43;
+}
+
+#star-1, #star-2 {
+  animation-name: starShake;
+  animation-iteration-count: infinite;
+}
+
+@keyframes starShake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media (min-width: 100px) {
+  #car {
+    top: -70%;
+    left: -200%;
+  }
+}
+@media (min-width: 200px) {
+  #car {
+    top: -30%;
+    left: -34%;
+  }
+}
+@media (min-width: 300px) {
+  #car {
+    top: 0;
+  }
+}
+@media (min-width: 400px) {
+  #car {
+    top: 10%;
+  }
+}
+@media (min-width: 600px) {
+  #car {
+    top: 20%;
+  }
+}
+@media (min-width: 840px) {
+  #car {
+    top: 25%;
+    left: -34%;
+  }
+
 }/*# sourceMappingURL=style.css.map */

@@ -6,6 +6,9 @@ Then we decided which elements we would animate and how we would achieve the res
 Animated some of the clouds using animateTransform type="translate" to make it move side to side to make a "shiver" effect.
 Some of the other clouds is animated using animateTransform type="scale" to make them scale up and down in size.
 By adding animations to the clouds we felt that it highlighted one of the keypoints that the poster is trying to emphasize, that each and every one of us must try to minimize our carbon footprint.
+https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL
 
-Sources:
-https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL 
+The stars next to the moon were animated using CSS keyframe rotate animations. Very simple animations that fit the objects without needing much code. Meant to make the stars look like they're twinkling/sparkling in the sky. [Code from geeksforgeeks](https://www.geeksforgeeks.org/how-to-shake-an-image-using-css-keyframe/)
+
+The car got a curved SMIL path animation, in order to highlight the point made about TikTok and trips to the moon.
+[Code from Mozilla Developer.](https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL) Unlike the other elements that used position absolute, the car was not responsive for smaller screens, despite being positoned like other elements using percentage values. An attempt to fix this was made using several media queries, but it still doesn't look quite right on smaller screens.
