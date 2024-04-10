@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 
-#poster-background-temp {
+#background {
   max-width: 100%;
   max-height: 100%;
   opacity: 50%;
@@ -22,6 +22,26 @@
 
 .fill-blue {
   fill: #005ba7;
+}
+
+.fill-moonGrey1 {
+  fill: #B4B6B7;
+}
+
+.fill-moonGrey2 {
+  fill: #EAEAE9;
+}
+
+.fill-darkGrey {
+  fill: #231f20;
+}
+
+.fill-yellow {
+  fill: #f5ec43;
+}
+
+.fill-pantsColor2 {
+  fill: #c77161;
 }
 
 .marydale-black {
@@ -110,18 +130,16 @@
   width: 38.0641330166%;
   height: 16.3301662708%;
 }
-
 #curved-text path {
-  fill: black;
+  fill: #000;
 }
 
 #car {
   width: 100%;
-  position: absolute;
   top: 24%;
   left: -34%;
+  z-index: 101;
 }
-
 #car g {
   transform: scale(18%);
 }
@@ -140,6 +158,9 @@
   height: 7.3040380048%;
   animation-duration: 0.8s;
 }
+#star-1 path {
+  fill: #f5ec43;
+}
 
 #star-2 {
   top: 16.8%;
@@ -147,6 +168,9 @@
   width: 4.9881235154%;
   height: 5.0475059382%;
   animation-duration: 1.2s;
+}
+#star-2 path {
+  fill: #f5ec43;
 }
 
 #star-1, #star-2 {

@@ -1,4 +1,20 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
+$skinColor: #ad9282;
+$skinColor2: #fce0ce;
+$skinColor3: #816c5d;
+$pantsColor2: #c77161;
+$primaryBlue: #00b1dc;
+$darkBlue: #005ba7;
+$primaryGreen: #a1cf6d;
+$yellow: #f5ec43;
+$green: #0fa15c;
+$white: #fff;
+$darkGrey: #231f20;
+$dark: #0a0203;
+$black: #000;
+$moonGrey1: #B4B6B7;
+$moonGrey2: #EAEAE9;
+
 .poster {
     max-width: 842px;
     max-height: 1192px;
@@ -6,7 +22,7 @@
     /*border: 3px solid black;*/
     overflow: hidden;
 }
-#poster-background-temp {
+#background {
     max-width: 100%;
     max-height: 100%;
     opacity: 50%;
@@ -18,33 +34,48 @@
 
 // SVG colors and font-family
 .fill-white {
-    fill: #fff;
+    fill: $white;
 }
 .fill-blue {
-    fill: #005ba7;
+    fill: $darkBlue;
+}
+.fill-moonGrey1 {
+    fill: $moonGrey1;
+}
+.fill-moonGrey2 {
+    fill: $moonGrey2;
+}
+.fill-darkGrey {
+    fill: $darkGrey;
+}
+.fill-yellow {
+    fill: $yellow;
+}
+.fill-pantsColor2 {
+    fill: $pantsColor2;
 }
 .marydale-black {
-    fill: #231f20;
+    fill: $darkGrey;
     font-family: Marydale-Bold, Marydale;
     font-size: 36px;
     font-weight: 700;
 }
 .marydale-white {
-    fill: #fff;
+    fill: $white;
     font-family: Marydale-Bold, Marydale;
     font-size: 45px;
     font-weight: 700;
 }
 .blue-background {
-    fill: #00b1dc;
+    fill: $primaryBlue;
     opacity: 0.15;
 }
 .red-background {
-    fill: #c77161;
+    fill: $pantsColor2;
     opacity: 0.38;
 }
 .fill-green {
-    fill: #0fa15c;
+    fill: $green;
 }
 
 // Background colors
@@ -99,18 +130,18 @@
     left: 2%;
     width: 38.064133016627075%;
     height: 16.330166270783845%;
-}
-#curved-text path {
-    fill: black;
+    path {
+        fill: $black;
+    }
 }
 #car {
     width: 100%;
-    position: absolute;
     top: 24%;
     left: -34%;
-}
-#car g {
-    transform: scale(18%);
+    z-index: 101;
+    g {
+        transform: scale(18%);
+    }
 }
 
 // Moon and stars
@@ -126,6 +157,9 @@
     width: 6.65083135391924%;
     height: 7.304038004750593%;
     animation-duration: 0.8s;
+    path {
+        fill: $yellow;
+    }
 }
 #star-2 {
     top: 16.8%;
@@ -133,6 +167,9 @@
     width: 4.98812351543943%;
     height: 5.04750593824228%;
     animation-duration: 1.2s;
+    path {
+        fill: $yellow;
+    }
 }
 #star-1, #star-2 {
     animation-name: starShake;
