@@ -1,1 +1,226 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
+$skinColor: #ad9282;
+$skinColor2: #fce0ce;
+$skinColor3: #816c5d;
+$pantsColor2: #c77161;
+$primaryBlue: #00b1dc;
+$darkBlue: #005ba7;
+$primaryGreen: #a1cf6d;
+$yellow: #f5ec43;
+$green: #0fa15c;
+$white: #fff;
+$darkGrey: #231f20;
+$dark: #0a0203;
+$black: #000;
+$moonGrey1: #B4B6B7;
+$moonGrey2: #EAEAE9;
+
+.poster {
+    max-width: 842px;
+    max-height: 1192px;
+    position: relative;
+    /*border: 3px solid black;*/
+    overflow: hidden;
+}
+#background {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 50%;
+    position: inherit;
+    z-index: 100;
+    pointer-events: none;
+    /*opacity: 0;*/
+}
+
+// SVG colors and font-family
+.fill-white {
+    fill: $white;
+}
+.fill-blue {
+    fill: $darkBlue;
+}
+.fill-moonGrey1 {
+    fill: $moonGrey1;
+}
+.fill-moonGrey2 {
+    fill: $moonGrey2;
+}
+.fill-darkGrey {
+    fill: $darkGrey;
+}
+.fill-yellow {
+    fill: $yellow;
+}
+.fill-pantsColor2 {
+    fill: $pantsColor2;
+}
+.marydale-black {
+    fill: $darkGrey;
+    font-family: Marydale-Bold, Marydale;
+    font-size: 36px;
+    font-weight: 700;
+}
+.marydale-white {
+    fill: $white;
+    font-family: Marydale-Bold, Marydale;
+    font-size: 45px;
+    font-weight: 700;
+}
+.blue-background {
+    fill: $primaryBlue;
+    opacity: 0.15;
+}
+.red-background {
+    fill: $pantsColor2;
+    opacity: 0.38;
+}
+.fill-green {
+    fill: $green;
+}
+
+// Background colors
+#background-1, #background-2, #background-3, #background-4, #text-1, #text-2, #text-3 {
+    position: absolute;
+}
+#background-1 {
+    z-index: 4;
+    top: 0;
+    left: 0;
+}
+#background-2 {
+    z-index: 3;
+    top: 1.1%;
+}
+#background-3 {
+    z-index: 2;
+    top: 24.7%;
+}
+#background-4 {
+    z-index: 1;
+    bottom: 11.86%;
+}
+
+.animated-element {
+    position: absolute;
+    z-index: 10;
+}
+
+// Text at top of poster
+#text-1, #text-2, #text-3 {
+    left: 5.1%;
+    z-index: 5;
+}
+#text-1, #text-2 {
+    max-width: 30%;
+ }
+#text-1 {
+    top: 3.65%;
+}
+#text-2 {
+    top: 11.3%;
+}
+#text-3 {
+    top: 21.9%;
+    max-width: 44.8%;
+}
+
+// Car and curved text
+#curved-text {
+    top: 33.2%;
+    left: 2%;
+    width: 38.064133016627075%;
+    height: 16.330166270783845%;
+    path {
+        fill: $black;
+    }
+}
+#car {
+    width: 100%;
+    top: -150%;
+    left: -200%;
+    z-index: 10;
+    g {
+        transform: scale(18%);
+    }
+}
+
+// Moon and stars
+#moon {
+    top: 10.6%;
+    left: 65.1%;
+    width: 23.45%;
+    height: 22.802850356294538%;
+}
+#star-1 {
+    top: 9.55%;
+    left: 84%;
+    width: 6.65083135391924%;
+    height: 7.304038004750593%;
+    animation-duration: 0.8s;
+    path {
+        fill: $yellow;
+    }
+}
+#star-2 {
+    top: 16.8%;
+    left: 90%;
+    width: 4.98812351543943%;
+    height: 5.04750593824228%;
+    animation-duration: 1.2s;
+    path {
+        fill: $yellow;
+    }
+}
+#star-1, #star-2 {
+    animation-name: starShake;
+    animation-iteration-count: infinite;
+}
+@keyframes starShake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(3deg);
+    }
+    75% {
+        transform: rotate(-3deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+// Car media queries
+@media (min-width: 100px) {
+    #car {
+        top: -70%;
+        left: -200%;
+    }
+}
+@media (min-width: 200px) {
+    #car {
+        top: -30%;
+        left: -34%;
+    }
+}
+@media (min-width: 300px) {
+    #car {
+        top: 0;
+    }
+}
+@media (min-width: 400px) {
+    #car {
+        top: 10%;
+    }
+}
+@media (min-width: 600px) {
+    #car {
+        top: 20%;
+    }
+}
+@media (min-width: 840px) {
+    #car {
+        top: 25%;
+        left: -34%;
+    }
+}
