@@ -1,3 +1,4 @@
-Explain your process and list all the elements you have animated, the type of animation you have used for each type and the reason why you used that type.
+The stars next to the moon were animated using CSS keyframe rotate animations. Very simple animations that fit the objects without needing much code. Meant to make the stars look like they're twinkling/sparkling in the sky. [Code from geeksforgeeks](https://www.geeksforgeeks.org/how-to-shake-an-image-using-css-keyframe/)
 
-Stars next to the moon, CSS keyframe rotate animations. Very simple animation that fits the objects without needing much code. Mean to make the stars look like they're twinkling/sparkling in the sky. [Code from geeksforgeeks](https://www.geeksforgeeks.org/how-to-shake-an-image-using-css-keyframe/)
+The car got a curved SMIL path animation, in order to highlight the point made about TikTok and trips to the moon.
+[Code from Mozilla Developer.](https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL) Unlike the other elements that used position absolute, the car was not responsive for smaller screens, despite being positoned like other elements using percentage values. An attempt to fix this was made using several media queries, but it still doesn't look quite right on smaller screens.
